@@ -5,6 +5,10 @@
       "destination": "/api/proxy/:path*"
     },
     {
+      "source": "/image-proxy",
+      "destination": "/api/image-proxy"
+    },
+    {
       "source": "/s=:query",
       "destination": "/index.html"
     },
